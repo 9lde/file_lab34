@@ -1,8 +1,6 @@
 import matplotlib.pyplot as plt
 import os
 def main():
-    x=1
-    while x == 1:
         submissions_list = load_submissions()
         assignment_dict = load_assignments()
         student_dict = load_students()
