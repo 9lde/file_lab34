@@ -6,11 +6,10 @@ def main():
         assignment_dict = load_assignments()
         student_dict = load_students()
         count = 0
-        user_choice = input('''1. Student grade
+        print('''1. Student grade
 2. Assignment statistics 
-3. Assignment graph
-
-Enter your selection: ''')
+3. Assignment graph''')
+        user_choice = input('Enter your selection: ')
         if user_choice == '1':
             score = 0
             total_quiz_points = 0
