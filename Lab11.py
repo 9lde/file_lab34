@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import os
 def main():
-    while True:
         submissions_list = load_submissions()
         assignment_dict = load_assignments()
         student_dict = load_students()
@@ -9,7 +8,7 @@ def main():
         print('''1. Student grade
 2. Assignment statistics 
 3. Assignment graph''')
-        user_choice = input('Enter your selection: ')
+        user_choice = int(input('Enter your selection: '))
         if user_choice == '1':
             score = 0
             total_quiz_points = 0
