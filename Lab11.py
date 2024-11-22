@@ -6,7 +6,7 @@ def main():
         student_dict = load_students()
         count = 0
         print('''1. Student grade
-2. Assignment statistics 
+2. Assignment statistics
 3. Assignment graph
 ''')
         user_choice = input('Enter your selection: ')
